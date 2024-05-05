@@ -7,7 +7,8 @@ Pós Graduação de IA para Devs da Fiap
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
-  - [Arquivo Notebook Fiap_PosTech_IADT_HelioAndrade_ChallengeFase1_Preview.ipynb](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB) 
+  - [Arquivo Notebook Fiap_PosTech_IADT_HelioAndrade_ChallengeFase1_Preview.ipynb](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB)
+  - Link arquivo Notebbol Colab https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
 
 # Introdução
 
@@ -51,7 +52,7 @@ A Solução implementada é composta por 5 partes:
 ## Seção 1 - Importando bibliotecas
 - Utilizaremos as bibliotecas numpy, pandas, matplotlib, seaborn esklearn.
 
-## Seção 2 - Coleta e análise de dados
+## Seção 2 - Coleta de dados
 Fonte dos dados: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 O arquivo insurance.csv foi carregado para o ambiente do Google Colab, conforme visto abaixo, por exemplo:
@@ -67,9 +68,26 @@ O dataset é composto pelas seguintes colunas:
 - region: Localidade residencial do beneficiário nos EUA, nnortheast, southeast, southwest, northwest.
 - charges : Os encargos ou custos médicos individuais cobrados pelo seguro de saúde
 
+ Foram realizados as seguintes passos:
+ 
+ - carregando os dados do arquivo csv para um DataFrame do Pandas
+ - exibindo nomes das colunas do datase
+ - primeiras 5 linhas do dataframe
+ - obtendo número de linhas e colunas - existem 1138 linhas e 7 colunas
+ - obtendo informações dos data type do conjunto de dados
+ - As variáveis categóricas são: sex, smoker e region
+ - verificando valores ausentes, e observa-se que não existem
+ - verificando se existem linhas duplicadas, e observa-se que existe uma linha
+ - removendo linhas duplicadas, e observa-se que agora existem 1337 linhas
+
 ## Seção 3 - Análise de dados
+- exibindo as medidas estatísticas do dataset
+- exibindo quantidades de pessoas  por: idade, exo, imc, filhos, fumante, região
+- exibindo os gráficos de distribuição de quantidades de pessoaspor: idade, exo, imc, filhos, fumante, região
 
 ## Seção 4 - Pré-processamento de dados
+- transformando as variáveis categóricas(sexo, fumante e região) em númericas
+- dividindo as variáveis features e target ou alvo(encargos)
 
 ## Seção 5 - Treinamento de modelo
 
