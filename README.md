@@ -52,7 +52,12 @@ A Solução implementada é composta por 5 partes:
 - Utilizaremos as bibliotecas numpy, pandas, matplotlib, seaborn esklearn.
 
 ## Seção 2 - Coleta e análise de dados
-Fonte dos dados: https://www.kaggle.com/datasets/mirichoi0218/insurance O dataset é composto pelas seguintes colunas:
+Fonte dos dados: https://www.kaggle.com/datasets/mirichoi0218/insurance
+
+O arquivo insurance.csv foi carregado para o ambiente do Google Colab, conforme visto abaixo, por exemplo:
+![image](https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/assets/168944366/42cccbf8-737d-477c-9429-5a831970bd1f)
+
+O dataset é composto pelas seguintes colunas:
 
 - age: idade do beneficiário principal
 - sex: gênero do contratante de seguros, feminino, masculino
