@@ -1,13 +1,13 @@
 
 # Curso 
-Pós Gradução de IA para Devs da Fiap 
+Pós Graduação de IA para Devs da Fiap 
 
 # Aluno
- - RM 355027 - José Hélio Araujo Andrade  - helioandrade@hotmail.com
+ - RM 355027 - José Hélio Araújo Andrade  - helioandrade@hotmail.com
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
-  - [Arquivo Notebook - versão preview](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB) 
+  - [Arquivo Notebook Fiap_PosTech_IADT_HelioAndrade_ChallengeFase1_Preview.ipynb](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB) 
 
 # Introdução
 
@@ -15,7 +15,7 @@ Este projeto tem como objetivo a solução de um problema de um modelo preditivo
 
 # O Problema
 Você é um profissional encarregado de desenvolver um modelo preditivo de regressão para prever o valor dos custos médicos individuais cobrados pelo seguro de saúde.
-A base de dados para esse desafio pode ser algo como um arquivo CSV contendo os as colunas(idade,genero,imc, filhos,regiao, encargos).
+A base de dados para esse desafio pode ser algo como um arquivo CSV contendo os as colunas(idade,gênero,imc, filhos,região, encargos).
 
 Você precisa apenas alimentar ela com mais informações ou utilizar uma outra de sua preferência.
 
@@ -35,14 +35,14 @@ Você precisa apenas alimentar ela com mais informações ou utilizar uma outra 
 - Treine o modelo com o conjunto de treinamento.
  
 ### Validação estatísticas
--cUtilize métricas estatísticas para validar a eficácia do modelo(p-value, intervalo de confiança);
+- Utilize métricas estatísticas para validar a eficácia do modelo(p-value, intervalo de confiança);
 
 ### O que avaliaremos
 - Apresente resultados visuais, como gráficos de previsões vs valores reais.
- - Elabore um relatório que inclua uma análise de resultados, insigts obtidos e validação estatística.
+- Elabore um relatório que inclua uma análise de resultados, insigts obtidos e validação estatística.
 
 ### Observações
-- Esperamos que o modelo seja capaz de fazer predições confiáveis dos custos médicos individuais com base nas caractéricas fornecidas.
+- Esperamos que o modelo seja capaz de fazer predições confiáveis dos custos médicos individuais com base nas características fornecidas.
 
 
 # A Solução implementada
