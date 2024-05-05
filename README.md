@@ -7,7 +7,7 @@ Pós Gradução de IA para Devs da Fiap
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
-  - [Arquivo Notebook - versão preview](https://colab.research.google.com/drive/1E5wViZPiCCoxxzCoNAP2daTkIGIrLTwK#scrollTo=9lNyU-GYLVWm) 
+  - [Arquivo Notebook - versão preview](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB) 
 
 # Introdução
 
