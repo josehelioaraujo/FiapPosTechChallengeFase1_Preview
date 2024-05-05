@@ -7,7 +7,6 @@ Pós Graduação de IA para Devs da Fiap
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
-  - [Arquivo Notebook Fiap_PosTech_IADT_HelioAndrade_ChallengeFase1_Preview.ipynb](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND#scrollTo=FqU3kmaXY6XB)
   - Link arquivo Notebbol Colab https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
 
 # Introdução
