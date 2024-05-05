@@ -9,7 +9,7 @@
 Este projeto tem como objetivo a solução de um problema de um modelo preditivo de custo de seguro de saúde, relacionado ao Tech Challenge Fase 1, do curso de Pós Gradução de IA para Devs da Fiap.
 
 # Aluno:
- - RM 355027 - José Hélio Araujo Andrade
+ - RM 355027 - José Hélio Araujo Andrade  - helioandrade@hotmail.com
 
 # O Problema:
 Você é um profissional encarregado de desenvolver um modelo preditivo de regressão para prever o valor dos custos médicos individuais cobrados pelo seguro de saúde.
