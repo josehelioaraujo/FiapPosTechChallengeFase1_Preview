@@ -6,7 +6,7 @@ Pós Graduação de IA para Devs da Fiap
  - RM 355027  - José Hélio Araújo Andrade - helioandrade@hotmail.com
  - RM 356210  - Bernardo Guimarães Tinti - betinti@hotmail.com
  - RM XXXXX   - Thiago Henrique Nunes de Souza - thiagohnds@gmail.com
- - RM XXXXX   - Ana Paula de Sa Lopes de Simone - analopes@correios.com.br 
+ - RM XXXXX   - Ana Paula de Sá Lopes de Simone - analopes@correios.com.br 
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
@@ -98,32 +98,30 @@ Usaremos 3 modelos de predição de regressão linear, e em seguida escolheremos
 métricas aplicadas(R2):
 
 ### 5.1 Usando o modelo Regressão Linear
-    - carregando o modelo de regressão linear
-    - fazendo predição de treinamento do modelo de regressão linear
-    - predição de treinamento do modelo de regressão linear
-    - aplicando métrica R squared
-
-### 5.2 Usando o modelo random forest
-   - treinando com dados de treinamento do modelo randon forest
-   - fazendo predição do modelo random forest usando os dados de teste
-   - aplicando métrica r2 no modelo random forest
-
+- carregando o modelo de regressão linear
+- fazendo predição de treinamento do modelo de regressão linear
+- predição de treinamento do modelo de regressão linear
+- aplicando métrica R squared
+  
+### 5.2 Usando o modelo Random Forest
+- treinando com dados de treinamento do modelo randon forest
+- fazendo predição do modelo random forest usando os dados de teste
+- aplicando métrica r2 no modelo random forest
+    
 ### 5.3 Usando o modelo Regressão XGBoost
    - carregando o modelo XGBoost
    - fazendo predição do modelo XGBoost usando os dados de teste
-   - aplicando a métrica r2 do modelo xgBoost
+   - aplicando a métrica r2 do modelo XGBoost
 
 ### 5.4 Comparação dos modelos usando a métrica R2
   - Exibindo os resultados da métrica R2 para os 3 modelos treinados conforme os tipos utilizados
   - Escolhendo o melhor modelo conforme métrica R2
   - O melhor modelo foi XG Boost com valor R2 0.8662432902515654
 
-  ### 5.5 Gráficos estatísticos - dúvidas perguntar prof. Ana raquel
-    Usar  gráficos estatísticos comparandos como as variáves característos impactam na varável target(encargos)
-    Exemplos: Histrogramas, matriz de confusão, etc 
-		  Observações: usar lib statmodels.api  Link https://www.statsmodels.org/stable/regression.html
-		  Estudar assuntos apresentados na mentoria pela prof. Ana Raquel
-	 shapiro,statsmodel,mann whitney u test,p-value e intervalo de confiança, etc
+  ### 5.5 Gráficos estatísticos - dúvidas perguntar prof. Ana Raquel
+    Usar  gráficos estatísticos comparandos como as variáves características impactam na varável target(encargos)
+    Exemplos: Histrogramas, matriz de confusão, etc ver  lib statmodels.api  Link https://www.statsmodels.org/stable/regression.html
+     estudar assuntos apresentados na mentoria pela prof. Ana Raquel(shapiro,statsmodel,mann whitney u test,p-value e intervalo de confiança, etc)
 
 
 ## Seção 5 - Conclusões - ainda pendente!!
@@ -137,16 +135,14 @@ Conforme a métrica R2 aplicada para os modelos utilizad, o melhor modelo predit
 - etc
 - etc
 
-### Seção 6 - Testando o modelo construido usando um formulário simples
+### Seção 7 - Testando o modelo construido usando um formulário simples
 
 Usando o form abaixo para selecionar os dados que seráo usado no cálculo do custo do seguro.
 ![image](https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/assets/168944366/8a15520f-aa6e-4a2d-addf-46ce2b4f0e3c)
 
 
-
 Exemplo de saida do custo do seguro usando os dados do form acima:
  
-
 Custo do segurado para os parâmtros abaixo:
 
 Idade: 44
