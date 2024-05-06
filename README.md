@@ -66,7 +66,7 @@ O dataset é composto pelas seguintes colunas:
 
 - age: idade do beneficiário principal
 - sex: gênero do contratante de seguros, feminino, masculino
-- bmi: Índice de massa corporal, fornecendo uma compreensão do corpo, pesos relativamente altos ou baixos em relação à altura, índice objetivo de peso corporal (kg/m ^ 2) usando a relação entre altura e peso, idealmente 18,5 a 24,9
+- bmi: Índice de massa corporal, fornecendo uma compreensão do corpo, pesos relativamente altos ou baixos em relação à altura, índice de massa corporal (kg/m ^ 2) usando a relação entre altura e peso, idealmente 18,5 a 24,9
 - children: Número de filhos cobertos por seguro saúde / Número de dependentes
 - smoker: Se tem o hábito de fumar ou não
 - region: Localidade residencial do beneficiário nos EUA, nnortheast, southeast, southwest, northwest.
