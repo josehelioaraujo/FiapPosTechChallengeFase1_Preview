@@ -51,7 +51,7 @@ Você precisa apenas alimentar ela com mais informações ou utilizar uma outra 
 
 
 # A Solução implementada
-A Solução implementada é composta por 5 partes:
+A Solução implementada é composta por 7 partes, e em cada parte contém as descrições dos passos e instruções realizadas.
 
 ## Seção 1 - Importando bibliotecas
 - Utilizaremos as bibliotecas numpy, pandas, matplotlib, seaborn esklearn.
