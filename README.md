@@ -10,7 +10,8 @@ Pós Graduação de IA para Devs da Fiap
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
-  - Link arquivo Notebbol Colab  https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
+  - Link arquivo Notebbook Colab  https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
+  - Github: https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/tree/develop
 
 
 # Introdução
