@@ -2,12 +2,15 @@
 # Curso 
 Pós Graduação de IA para Devs da Fiap 
 
-# Aluno
- - RM 355027 - José Hélio Araújo Andrade  - helioandrade@hotmail.com
+# Grupo 27
+ - RM 355027  - José Hélio Araújo Andrade - helioandrade@hotmail.com
+ - RM 356210  - Bernardo Guimarães Tinti - betinti@hotmail.com
+ - RM XXXXX   - Thiago Henrique Nunes de Souza - thiagohnds@gmail.com
+ - RM XXXXX   - Ana Paula de Sa Lopes de Simone - analopes@correios.com.br 
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
- - [Link arquivo Notebook no Colab:  https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
+ - Link arquivo Notebook no Colab:  https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
  - Github: https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/tree/develop
 
 # Introdução
