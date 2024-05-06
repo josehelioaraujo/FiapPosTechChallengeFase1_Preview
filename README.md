@@ -126,7 +126,7 @@ métricas aplicadas(R2):
 	 shapiro,statsmodel,mann whitney u test,p-value e intervalo de confiança, etc
 
 
-## Seção 5 - Conclusões
+## Seção 5 - Conclusões - ainda pendente!!
 Conforme a métrica R2 aplicada para os modelos utilizad, o melhor modelo preditivo do valor do custo de seguro, é o modelo XG Boost, conforme tabela exbida abaixo:
 
 - Regressão Linear - R2: 0.7447273869684076
