@@ -7,7 +7,7 @@ Pós Graduação de IA para Devs da Fiap
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
- - [Link arquivo Notebook no Colab](https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing)
+ - [Link arquivo Notebook no Colab:  https://colab.research.google.com/drive/1t3tepdSvGgPNjXI3fKD6yaQQoxi_vtND?usp=sharing
  - Github: https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/tree/develop
 
 # Introdução
@@ -47,7 +47,7 @@ Você precisa apenas alimentar ela com mais informações ou utilizar uma outra 
 
 
 # A Solução implementada
-A Solução implementada é composta por 5 partes:
+A Solução implementada é composta por 7 partes, e em cada parte são descritas os passos e instruções realizadas.
 
 ## Seção 1 - Importando bibliotecas
 - Utilizaremos as bibliotecas numpy, pandas, matplotlib, seaborn esklearn.
@@ -90,6 +90,73 @@ O dataset é composto pelas seguintes colunas:
 - dividindo as variáveis features e target ou alvo(encargos)
 
 ## Seção 5 - Treinamento de modelo
+Usaremos 3 modelos de predição de regressão linear, e em seguida escolheremos o que teve melhor eficácia, conforme
+métricas aplicadas(R2):
 
-## Seção 5 - Conclusões
+### 5.1 Usando o modelo Regressão Linear
+    - carregando o modelo de regressão linear
+    - fazendo predição de treinamento do modelo de regressão linear
+    - predição de treinamento do modelo de regressão linear
+    - aplicando métrica R squared
 
+### 5.2 Usando o modelo random forest
+   - treinando com dados de treinamento do modelo randon forest
+   - fazendo predição do modelo random forest usando os dados de teste
+   - aplicando métrica r2 no modelo random forest
+
+### 5.3 Usando o modelo Regressão XGBoost
+   - carregando o modelo XGBoost
+   - fazendo predição do modelo XGBoost usando os dados de teste
+   - aplicando a métrica r2 do modelo xgBoost
+
+### 5.4 Comparação dos modelos usando a métrica R2
+  - Exibindo os resultados da métrica R2 para os 3 modelos treinados conforme os tipos utilizados
+  - Escolhendo o melhor modelo conforme métrica R2
+  - O melhor modelo foi XG Boost com valor R2 0.8662432902515654
+
+  ### 5.5 Gráficos estatísticos - dúvidas perguntar prof. Ana raquel
+       - Usar  gráficos estatísticos comparandos como as variáves característos impactam na varável target(encargos)
+         Exemplos: Histrogramas, matriz de confusão, etc 
+		 
+    - Observações: usar lib statmodels.api  Link https://www.statsmodels.org/stable/regression.html
+		
+	- Estudar assuntos apresentados na mentoria pela prof. Ana Raquel
+	 - shapiro,statsmodel,mann whitney u test,p-value e intervalo de confiança, etc
+
+ 
+## Seção 6 - Conclusões
+
+Conforme a métrica R2 aplicada para os modelos utilizad, o melhor modelo preditivo do valor do custo de seguro, é o modelo XG Boost, conforme tabela exbida abaixo:
+
+- Regressão Linear - R2: 0.7447273869684076
+- Random Forest - R2: 0.8370748848709408
+- XG Boost - R2: 0.8662432902515654
+
+- etc
+- etc
+- etc
+
+ 
+ ### Seção 7 - Testando o modelo construido usando um formulário simples
+
+Usando o form abaixo para selecionar os dados que seráo
+usado no cálculo do custo do seguro.
+
+![image](https://github.com/josehelioaraujo/FiapPosTechChallengeFase1_Preview/assets/168944366/4f84b295-8001-470a-acbe-8fc19424d750)
+
+
+Custo do segurado para os parâmtros abaixo:
+
+Idade: 44
+
+Sexo: Male
+
+IMC: 24.1
+
+Qtde Filhos: 1
+
+Fumante: Yes
+
+Região: Southeast
+
+Custo Seguro(USD): 10091.169
