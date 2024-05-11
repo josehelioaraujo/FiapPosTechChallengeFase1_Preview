@@ -2,11 +2,8 @@
 # Curso 
 Pós Graduação de IA para Devs da Fiap 
 
-# Grupo 27
+Aluno
  - RM 355027  - José Hélio Araújo Andrade - helioandrade@hotmail.com
- - RM 356210  - Bernardo Guimarães Tinti - betinti@hotmail.com
- - RM XXXXX   - Thiago Henrique Nunes de Souza - thiagohnds@gmail.com
- - RM XXXXX   - Ana Paula de Sa Lopes de Simone - analopes@correios.com.br 
     
 # Entregável
  - Link video de apresentação no Youtube -  A fazer
