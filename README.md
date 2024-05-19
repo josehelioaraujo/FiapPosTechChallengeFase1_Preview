@@ -45,10 +45,4 @@ Você precisa apenas alimentar ela com mais informações ou utilizar uma outra 
 ### Observações
 - Esperamos que o modelo seja capaz de fazer predições confiáveis dos custos médicos individuais com base nas características fornecidas.
  de quantidades de pessoaspor: idade, exo, imc, filhos, fumante, região
-v
-
-Fumante: Yes
-
-Região: Southeast
-
-Custo Seguro(USD): 10091.169
+ 
